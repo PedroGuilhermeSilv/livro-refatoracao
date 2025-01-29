@@ -10,3 +10,15 @@
   - Há duplicação de código
   - O trecho de código tem uma responsabilidade clara e única
   - Deseja-se melhorar a legibilidade do código
+- Substituir variável temporária por consulta: Técnica que consiste em substituir uma variável temporária por uma função/método que retorna o valor calculado. Útil quando:
+  - A variável é calculada uma única vez e não é modificada depois
+  - O cálculo é simples e pode ser encapsulado em uma função
+  - Melhora a legibilidade ao dar um nome significativo para o cálculo
+  - Facilita a reutilização do cálculo em outros lugares do código
+  - Ajuda a evitar duplicação de lógica
+- Internalizar variável (Inline Variable): Técnica que consiste em substituir uma variável por sua expressão direta. Útil quando:
+  - A variável não adiciona clareza ao código
+  - A expressão é simples e autoexplicativa
+  - A variável está sendo usada apenas uma vez
+  - A variável está dificultando outras refatorações
+  - Deseja-se simplificar o código eliminando variáveis desnecessárias

@@ -22,3 +22,10 @@
   - A variável está sendo usada apenas uma vez
   - A variável está dificultando outras refatorações
   - Deseja-se simplificar o código eliminando variáveis desnecessárias
+- Mudar declaração de função: Técnica que consiste em alterar a assinatura de uma função (nome, parâmetros, retorno). Útil quando:
+  - O nome da função não reflete claramente seu propósito
+  - Os parâmetros precisam ser reordenados ou modificados
+  - É necessário adicionar ou remover parâmetros
+  - O tipo de retorno precisa ser alterado
+  - Deseja-se melhorar a interface da função
+  - A função evoluiu e sua declaração atual não representa bem seu comportamento
